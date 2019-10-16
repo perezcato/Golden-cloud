@@ -12,7 +12,7 @@ export default function Header() {
 
   return (
     <div
-      className="flex w-full items-center justify-between shadow z-10 px-6 lg:px-24 lg:flex lg:justify-between lg:items-center lg:flex-row"
+      className="flex w-full items-center justify-between shadow z-10 px-6 lg:px-12 xl:px-16 lg:flex lg:justify-between lg:items-center lg:flex-row"
       style={{ backgroundColor: "rgba(255,255,255,1)", boxSizing: 'border-box' }}
     >
       <img
@@ -27,26 +27,26 @@ export default function Header() {
       <ul className="lg:flex hidden">
         <li className="mr-8 hover:text-primarycolor uppercase text-gray-800 font-bold text-sm">
           <Link
-            to="our-home"
+            to="our-banner"
             activeClass="text-primarycolor"
             spy={true}
             smooth={true}
             duration={1000}
-            className="hover:text-primarycolor"
+            className="hover:text-primarycolor cursor-pointer"
           >
             Home
           </Link>
         </li>
-        <li className=" hover:text-primarycolor mr-8 uppercase text-gray-800 font-bold text-sm">
+        <li className="hover:text-primarycolor mr-8 uppercase text-gray-800 font-bold text-sm">
           <Link
             to="our-packages"
             activeClass="text-primarycolor"
             spy={true}
             smooth={true}
             duration={1000}
-            className="hover:text-primarycolor"
+            className="hover:text-primarycolor cursor-pointer"
           >
-            Packages
+            Tours
           </Link>
         </li>
         <li className=" hover:text-primarycolor mr-8 uppercase text-gray-800 font-bold text-sm">
@@ -56,7 +56,7 @@ export default function Header() {
               spy={true}
               smooth={true}
               duration={1000}
-              className="hover:text-primarycolor"
+              className="hover:text-primarycolor cursor-pointer"
           >
             Accommodation
           </Link>
@@ -68,30 +68,19 @@ export default function Header() {
             spy={true}
             smooth={true}
             duration={1000}
-            className="hover:text-primarycolor"
+            className="hover:text-primarycolor cursor-pointer"
           >
             Events
           </Link>
         </li>
-        <li className=" hover:text-primarycolor mr-8 uppercase text-gray-800 font-bold text-sm">
-          <Link
-            to="our-contact"
-            activeClass="text-primarycolor"
-            spy={true}
-            smooth={true}
-            duration={1000}
-            className="hover:text-primarycolor"
-          >
-            Contact
-          </Link>
-        </li>
         <li className=" hover:text-primarycolor uppercase text-gray-800 font-bold text-sm">
           <Link
-            to="our-packages"
+              activeClass="text-primarycolor"
+            to="about-us"
             spy={true}
             smooth={true}
             duration={1000}
-            className="hover:text-primarycolor"
+            className="hover:text-primarycolor cursor-pointer"
           >
             About
           </Link>
@@ -100,3 +89,7 @@ export default function Header() {
     </div>
   );
 }
+
+
+
+

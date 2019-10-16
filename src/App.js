@@ -4,10 +4,12 @@ import Info from "./components/info-bar/info";
 import Header from "./components/header";
 import Banner from "./components/banner";
 import OurPackages from "./components/our-packages";
-import ContactUs from "./components/contact-us";
 import Accomodation from "./components/accomdation";
 import Places from './components/info-bar/places';
 import Menu from './components/menu';
+import Action from './components/action';
+import JoinUs from './components/join-us';
+import Footer from './components/footer';
 
 
 function App() {
@@ -15,7 +17,7 @@ function App() {
       <>
         <Menu/>
     <div
-      className=""
+      className=" bg-gray-100"
       style={{ fontFamily: "Montserrat, san-serif", boxSizing: 'border-box' }}
     >
       <div className="sticky z-20 top-0">
@@ -26,7 +28,9 @@ function App() {
       <OurPackages />
       <Accomodation />
       <Places/>
-      <ContactUs />
+      <Action/>
+      <JoinUs/>
+      <Footer/>
     </div>
         </>
   );

@@ -4,10 +4,11 @@ import bg from "../assets/images/webapp.jpg";
 export default function Banner() {
   return (
     <section
+        id="our-banner"
       className=" bg-center text-center md:text-left lg:text-left bg-cover "
       style={{ backgroundImage: `url(${bg})`, height: "100vh", boxSizing: 'border-box' }}
     >
-      <div className="w-full h-full lg:px-24 pt-40 px-6 bg-dark lg:bg-transparent">
+      <div className="w-full h-full lg:px-12 xl:px-16 pt-40 px-6 bg-dark lg:bg-transparent">
       <div className="mt-5 leading-none">
         <h3 className="uppercase text-4xl lg:text-5xl font-bold">
           <span className="text-primarycolor">Golden</span>cloud
