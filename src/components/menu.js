@@ -18,8 +18,9 @@ export default function Menu() {
         <FontAwesomeIcon icon={faTimes} />
       </button>
       <ul className="mt-24">
-          <li className="mr-8 hover:text-primarycolor uppercase text-gray-800 font-bold text-sm">
+          <li className="mb-4 text-2xl hover:text-primarycolor uppercase text-white font-bold ">
               <Link
+                  onClick={close}
                   to="our-banner"
                   activeClass="text-primarycolor"
                   spy={true}
@@ -30,8 +31,9 @@ export default function Menu() {
                   Home
               </Link>
           </li>
-          <li className="hover:text-primarycolor mr-8 uppercase text-gray-800 font-bold text-sm">
+          <li className="mb-4 text-2xl hover:text-primarycolor mr-8 uppercase text-white font-bold ">
               <Link
+                  onClick={close}
                   to="our-packages"
                   activeClass="text-primarycolor"
                   spy={true}
@@ -42,8 +44,9 @@ export default function Menu() {
                   Tours
               </Link>
           </li>
-          <li className=" hover:text-primarycolor mr-8 uppercase text-gray-800 font-bold text-sm">
+          <li className="mb-4 text-2xl hover:text-primarycolor mr-8 uppercase text-white font-bold ">
               <Link
+                  onClick={close}
                   to="our-accommodation"
                   activeClass="text-primarycolor"
                   spy={true}
@@ -54,8 +57,9 @@ export default function Menu() {
                   Accommodation
               </Link>
           </li>
-          <li className=" hover:text-primarycolor mr-8 uppercase text-gray-800 font-bold text-sm">
+          <li className="mb-4 text-2xl hover:text-primarycolor mr-8 uppercase text-white font-bold ">
               <Link
+                  onClick={close}
                   to="our-places"
                   activeClass="text-primarycolor"
                   spy={true}
@@ -66,8 +70,9 @@ export default function Menu() {
                   Events
               </Link>
           </li>
-          <li className=" hover:text-primarycolor uppercase text-gray-800 font-bold text-sm">
+          <li className=" mb-4 text-2xl hover:text-primarycolor uppercase text-white font-bold ">
               <Link
+                  onClick={close}
                   activeClass="text-primarycolor"
                   to="about-us"
                   spy={true}

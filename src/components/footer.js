@@ -4,10 +4,10 @@ import siteLogo from "../assets/images/bg2.png";
 export default function Footer() {
     return (
         <footer className="relative bg-gray-900 text-white px-6 sm:px-8 lg:px-12 xl:px-16 2xl:px-64 py-12 lg:py-24">
-            <div className="flex flex-col md:flex-row">
+            <div className="flex flex-col md:flex-col lg:flex-row">
                 <div className="w-full lg:w-2/6 lg:mx-4 lg:pr-8">
 
-                    <h3 className="font-bold text-2xl flex items-center"><img
+                    <h3 className="font-bold text-lg flex items-center"><img
                         src={siteLogo}
                         alt="logo of golden travel and tours"
                         className="w-16 h-16"
@@ -31,7 +31,7 @@ export default function Footer() {
                     </form>
                 </div>
 
-                <div className="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
+                <div className="w-full lg:w-2/6 mt-8 lg:mt-0 lg:mx-4">
                     <h5 className="uppercase tracking-wider font-semibold text-gray-500">Our Services</h5>
                     <ul className="mt-4">
                         <li  className=" mt-2opacity-75 hover:opacity-100">All flight reservations</li>
@@ -40,7 +40,7 @@ export default function Footer() {
                     </ul>
                 </div>
 
-                <div className="w-full lg:w-2/6 mt-8 lg:mt-0 lg:mx-4 lg:pr-8">
+                <div className="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4 lg:pr-8">
                     <h5 className="uppercase tracking-wider font-semibold text-gray-500">Contact Details</h5>
                     <ul className="mt-4">
                         <li>
