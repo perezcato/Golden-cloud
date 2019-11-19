@@ -17,7 +17,7 @@ export default function Menu() {
       >
         <FontAwesomeIcon icon={faTimes} />
       </button>
-      <ul className="mt-24">
+      <ul className="mt-24 text-justify">
           <li className="mb-4 text-2xl hover:text-primarycolor uppercase text-white font-bold ">
               <Link
                   onClick={close}

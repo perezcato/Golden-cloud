@@ -20,7 +20,8 @@ export default function Places() {
                 <div
                     className="h-64 lg:h-64 md:h-64 z-0 w-full rounded relative mb-6 lg:mb-0 lg:w-p2-5 md:w-p4.5 shadow-xl"
                     style={{
-                        transition: "all 0.5s ease-in-out"
+                        transition: "all 0.5s ease-in-out",
+                        minHeight: '256px'
                     }}
                 >
                     <div
@@ -36,7 +37,7 @@ export default function Places() {
                                 className="bg-primarycolor absolute
                     text-white h-8 w-8 text-xs justify-center flex items-center rounded"
                             >
-                                9.2
+                                9.0
                             </p>
                             <div className="absolute bottom-0 left-0 w-full px-4">
                                 <h2 className="text-base lg:text-lg font-normal text-white">
@@ -49,7 +50,8 @@ export default function Places() {
                 <div
                     className="h-64 lg:h-64 md:h-64 z-0 w-full rounded relative mb-6 lg:mb-0 lg:w-p2-5 md:w-p4.5 shadow-xl"
                     style={{
-                        transition: "all 0.5s ease-in-out"
+                        transition: "all 0.5s ease-in-out",
+                        minHeight: '256px'
                     }}
                 >
                     <div
@@ -78,7 +80,8 @@ export default function Places() {
                 <div
                     className="h-64 lg:h-64 md:h-64 z-0 w-full rounded relative mb-6 lg:mb-0 lg:w-p2-5 md:w-p4.5 shadow-xl"
                     style={{
-                        transition: "all 0.5s ease-in-out"
+                        transition: "all 0.5s ease-in-out",
+                        minHeight: '256px'
                     }}
                 >
                     <div
@@ -94,7 +97,7 @@ export default function Places() {
                                 className="bg-primarycolor absolute
                     text-white h-8 w-8 text-xs justify-center flex items-center rounded"
                             >
-                                9.2
+                                9.5
                             </p>
                             <div className="absolute bottom-0 left-0 w-full px-4">
                                 <h2 className="text-base lg:text-lg font-normal text-white">
@@ -107,7 +110,8 @@ export default function Places() {
                 <div
                     className="h-64 lg:h-64 md:h-64 z-0 w-full rounded relative mb-6 lg:mb-0 lg:w-p2-5 md:w-p4.5 shadow-xl"
                     style={{
-                        transition: "all 0.5s ease-in-out"
+                        transition: "all 0.5s ease-in-out",
+                        minHeight: '256px'
                     }}
                 >
                     <div
@@ -123,7 +127,7 @@ export default function Places() {
                                 className="bg-primarycolor absolute
                     text-white h-8 w-8 text-xs justify-center flex items-center rounded"
                             >
-                                9.2
+                                9.0
                             </p>
                             <div className="absolute bottom-0 left-0 w-full px-4">
                                 <h2 className="text-base lg:text-lg font-normal text-white">

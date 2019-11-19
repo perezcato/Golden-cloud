@@ -3,9 +3,9 @@ import siteLogo from "../assets/images/bg2.png";
 
 export default function Footer() {
     return (
-        <footer className="relative bg-gray-900 text-white px-6 sm:px-8 lg:px-12 xl:px-16 2xl:px-64 py-12 lg:py-24">
+        <footer className="relative bg-gray-900 text-white px-6 sm:px-8 lg:px-12 xl:px-16 2xl:px-64 py-12 lg:py-24" style={{minHeight: '551px'}}>
             <div className="flex flex-col md:flex-col lg:flex-row">
-                <div className="w-full lg:w-2/6 lg:mx-4 lg:pr-8">
+                <div className="w-full lg:w-1/4 lg:mx-4 lg:pr-8">
 
                     <h3 className="font-bold text-lg flex items-center"><img
                         src={siteLogo}
@@ -16,7 +16,7 @@ export default function Footer() {
 
                     <form className="flex items-center mt-6">
                         <div className="w-full">
-                            <label className="block uppercase tracking-wide text-gray-600 text-xs font-bold mb-2" for="grid-last-name">
+                            <label className="block uppercase tracking-wide text-gray-600 text-xs font-bold mb-2" htmlFor="grid-last-name">
                                 Subscribe for our Newsletter
                             </label>
                             <div className="relative">
@@ -30,8 +30,7 @@ export default function Footer() {
                         </div>
                     </form>
                 </div>
-
-                <div className="w-full lg:w-2/6 mt-8 lg:mt-0 lg:mx-4">
+                <div className="w-full lg:w-1/4 mt-8 lg:mt-0 lg:mx-4">
                     <h5 className="uppercase tracking-wider font-semibold text-gray-500">Our Services</h5>
                     <ul className="mt-4">
                         <li  className=" mt-2opacity-75 hover:opacity-100">All flight reservations</li>
@@ -39,8 +38,7 @@ export default function Footer() {
                         <li  className=" mt-2 opacity-75 hover:opacity-100">Tours</li>
                     </ul>
                 </div>
-
-                <div className="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4 lg:pr-8">
+                <div className="w-full lg:w-1/4 mt-8 lg:mt-0 lg:mx-4 lg:pr-8">
                     <h5 className="uppercase tracking-wider font-semibold text-gray-500">Contact Details</h5>
                     <ul className="mt-4">
                         <li>
@@ -53,7 +51,7 @@ export default function Footer() {
                   </svg>
                 </span>
                                 <span className="ml-3">
-                  Location of the place
+                  Accra
                 </span>
                             </a>
                         </li>
@@ -96,14 +94,13 @@ export default function Footer() {
                   </svg>
                 </span>
                                 <span className="ml-3">
-                  info@goldencloud.com
+                  info@goldencloudstours.com
                 </span>
                             </a>
                         </li>
                     </ul>
                 </div>
-
-                <div className="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
+                <div className="w-full lg:w-1/4 mt-8 lg:mt-0 lg:mx-4">
                     <h5 className="uppercase tracking-wider font-semibold text-gray-500">We're Social</h5>
                     <ul className="mt-4 flex">
                         <li>

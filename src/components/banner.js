@@ -6,7 +6,7 @@ export default function Banner() {
     <section
         id="our-banner"
       className=" bg-center text-center md:text-left lg:text-left bg-cover "
-      style={{ backgroundImage: `url(${bg})`, height: "100vh", boxSizing: 'border-box' }}
+      style={{ backgroundImage: `url(${bg})`, height: "100vh", boxSizing: 'border-box', minHeight: '701px' }}
     >
       <div className="w-full h-full lg:px-12 xl:px-16 pt-40 px-6 bg-dark lg:bg-transparent">
       <div className="mt-5 leading-none">

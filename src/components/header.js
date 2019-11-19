@@ -82,7 +82,7 @@ export default function Header() {
             duration={1000}
             className="hover:text-primarycolor cursor-pointer"
           >
-            About
+            Contact Us
           </Link>
         </li>
       </ul>

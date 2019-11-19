@@ -1,5 +1,6 @@
 {
   "name": "golden-travel-and-tours",
+  "homepage": "http://www.goldencloudstours.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,7 +28,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://perezcato.github.io/Golden-cloud",
   "eslintConfig": {
     "extends": "react-app"
   },

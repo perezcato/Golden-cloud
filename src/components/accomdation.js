@@ -20,7 +20,8 @@ export default function Accomodation() {
         <div
           className="h-64 lg:h-64 md:h-64 z-0 w-full rounded relative mb-6 lg:mb-0 lg:w-p2-5 md:w-p4.5 shadow-xl"
           style={{
-            transition: "all 0.5s ease-in-out"
+            transition: "all 0.5s ease-in-out",
+            minHeight: '256px'
           }}
         >
           <div
@@ -36,7 +37,7 @@ export default function Accomodation() {
                 className="bg-primarycolor absolute
                     text-white h-8 w-8 text-xs justify-center flex items-center rounded"
               >
-                9.2
+                9.0
               </p>
               <div className="absolute bottom-0 left-0 w-full px-4">
                 <p className="text-xs capitalize text-left">
@@ -71,7 +72,8 @@ export default function Accomodation() {
         <div
           className="h-64 lg:h-64 md:h-64 z-0 w-full rounded relative mb-6 lg:mb-0 lg:w-p2-5 md:w-p4.5 shadow-xl"
           style={{
-            transition: "all 0.5s ease-in-out"
+            transition: "all 0.5s ease-in-out",
+            minHeight: '256px'
           }}
         >
           <div
@@ -87,7 +89,7 @@ export default function Accomodation() {
                 className="bg-primarycolor absolute
                     text-white h-8 w-8 text-xs justify-center flex items-center rounded"
               >
-                9.2
+                9.4
               </p>
               <div className="absolute bottom-0 left-0 w-full px-4">
                 <p className="text-xs capitalize text-left">
@@ -122,7 +124,8 @@ export default function Accomodation() {
         <div
           className="h-64 lg:h-64 md:h-64 z-0 w-full rounded relative mb-6 lg:mb-0 lg:w-p2-5 md:w-p4.5 shadow-xl"
           style={{
-            transition: "all 0.5s ease-in-out"
+            transition: "all 0.5s ease-in-out",
+            minHeight: '256px'
           }}
         >
           <div
@@ -138,7 +141,7 @@ export default function Accomodation() {
                 className="bg-primarycolor absolute
                     text-white h-8 w-8 text-xs justify-center flex items-center rounded"
               >
-                9.2
+                9.3
               </p>
               <div className="absolute bottom-0 left-0 w-full px-4">
                 <p className="text-xs capitalize text-left">
@@ -173,7 +176,8 @@ export default function Accomodation() {
         <div
           className="h-64 lg:h-64 md:h-64 z-0 w-full rounded relative mb-6 lg:mb-0 lg:w-p2-5 md:w-p4.5 shadow-xl"
           style={{
-            transition: "all 0.5s ease-in-out"
+            transition: "all 0.5s ease-in-out",
+            minHeight: '256px'
           }}
         >
           <div
@@ -189,7 +193,7 @@ export default function Accomodation() {
                 className="bg-primarycolor absolute
                     text-white h-8 w-8 text-xs justify-center flex items-center rounded"
               >
-                9.2
+                9.0
               </p>
               <div className="absolute bottom-0 left-0 w-full px-4">
                 <p className="text-xs capitalize text-left">

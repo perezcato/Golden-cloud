@@ -34,11 +34,11 @@ export default function Info() {
             color="white"
           />
           <p className="text-white ml-2 lg:ml-2 lg:text-xs font-light lg:tracking-wider text-xs">
-            info@goldencloud.com
+            info@goldencloudstours.com
           </p>
         </div>
       </div>
-      <div className=" hidden lg:flex md:flex md:justify-center md:flex-1 md:info-social lg:justify-center lg:flex-1 lg:info-social">
+      <div className=" hidden lg:flex md:flex md:justify-end md:flex-1 md:info-social lg:justify-end lg:flex-1 lg:info-social">
         <FontAwesomeIcon
           className="text-white lg:mr-4 md:mr-4"
           icon={faFacebookF}

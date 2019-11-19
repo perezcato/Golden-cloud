@@ -18,7 +18,8 @@ export default function OurPackages() {
         <div
           className="h-ch1 lg:h-67 md:h-67 z-0 w-full relative mb-6 lg:mb-0 lg:w-p2-5 md:w-p4.5 shadow-xl"
           style={{
-            transition: "all 0.5s ease-in-out"
+            transition: "all 0.5s ease-in-out",
+            minHeight: '350px'
           }}
         >
           <div
@@ -27,7 +28,7 @@ export default function OurPackages() {
           >
           </div>
           <div className="content w-full px-4 text-left pt-2 h-p4 lg:h-p5">
-            <h2 className="text-xs md:text-base lg:text-lg font-bold md:mb-1 text-primarycolor">
+            <h2 className="text-sm md:text-base lg:text-lg font-bold md:mb-1 text-primarycolor">
               Trip to Paris
             </h2>
             <p className="text-xs lg:text-xs xl:text-sm md:text-xs font-light capitalize text-left">
@@ -39,7 +40,8 @@ export default function OurPackages() {
         <div
           className="h-ch1 lg:h-67 md:h-67 relative z-0 w-full mb-6 lg:mb-0 lg:w-p2-5 md:w-p4.5 shadow-xl"
           style={{
-            transition: "all 0.5s ease-in-out"
+            transition: "all 0.5s ease-in-out",
+            minHeight: '350px'
           }}
         >
           <div
@@ -48,7 +50,7 @@ export default function OurPackages() {
           >
           </div>
           <div className="content w-full px-4 text-left pt-2 h-p4 lg:h-p5">
-            <h2 className="text-xs md:text-base lg:text-lg font-bold md:mb-1 text-primarycolor">
+            <h2 className="text-sm md:text-base lg:text-lg font-bold md:mb-1 text-primarycolor">
               Trip to Singapore
             </h2>
             <p className="text-xs lg:text-xs xl:text-sm md:text-xs font-light capitalize text-left">
@@ -60,7 +62,8 @@ export default function OurPackages() {
         <div
           className="h-ch1 lg:h-67 md:h-67 relative z-0 w-full mb-6 lg:mb-0 lg:w-p2-5 md:w-p4.5 shadow-xl"
           style={{
-            transition: "all 0.5s ease-in-out"
+            transition: "all 0.5s ease-in-out",
+            minHeight: '350px'
           }}
         >
           <div
@@ -69,7 +72,7 @@ export default function OurPackages() {
           >
           </div>
           <div className="w-full px-4 text-left pt-2 h-p4 lg:h-p5">
-            <h2 className="text-xs md:text-base lg:text-lg font-bold md:mb-1 text-primarycolor">
+            <h2 className="text-sm md:text-base lg:text-lg font-bold md:mb-1 text-primarycolor">
               Trip to London
             </h2>
             <p className="text-xs lg:text-xs xl:text-sm md:text-xs font-light capitalize text-left">
@@ -81,7 +84,8 @@ export default function OurPackages() {
         <div
             className="h-ch1 lg:h-67 md:h-67 z-0 w-full mb-6 lg:mb-0 relative lg:w-p2-5 md:w-p4.5 shadow-xl"
             style={{
-              transition: "all 0.5s ease-in-out"
+              transition: "all 0.5s ease-in-out",
+              minHeight: '350px'
             }}
         >
           <div
@@ -90,7 +94,7 @@ export default function OurPackages() {
           >
           </div>
           <div className="content w-full px-4 text-left pt-2 h-p4 lg:h-p5">
-            <h2 className="text-xs md:text-base lg:text-lg font-bold md:mb-1 text-primarycolor">
+            <h2 className="text-sm md:text-base lg:text-lg font-bold md:mb-1 text-primarycolor">
               Trip to Dubai
             </h2>
             <p className="text-xs lg:text-xs xl:text-sm md:text-xs font-light capitalize text-left">
