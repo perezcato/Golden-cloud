@@ -24,7 +24,7 @@ export default function Info() {
             color="white"
           />
           <h4 className="text-white lg:ml-2 ml-2 lg:text-xs lg:font-light text-xs">
-            +(233) 23 456 7890
+            0302938426
           </h4>
         </div>
         <div className="lg:flex flex items-center justify-center md:ml-8 lg:ml-8 lg:items-center lg:flex-row  lg:justify-center">

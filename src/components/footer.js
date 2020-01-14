@@ -1,9 +1,11 @@
 import React from "react";
+//import siteLogg from "../assets/images/mtek.png";
 import siteLogo from "../assets/images/bg2.png";
+
 
 export default function Footer() {
     return (
-        <footer className="relative bg-gray-900 text-white px-6 sm:px-8 lg:px-12 xl:px-16 2xl:px-64 py-12 lg:py-24" style={{minHeight: '551px'}}>
+        <footer className="relative bg-gray-900 text-white px-6 sm:px-8 lg:px-12 xl:px-16 2xl:px-64 py-12 lg:py-24" style={{minHeight: '350px'}}>
             <div className="flex flex-col md:flex-col lg:flex-row">
                 <div className="w-full lg:w-1/4 lg:mx-4 lg:pr-8">
 
@@ -21,12 +23,15 @@ export default function Footer() {
                             </label>
                             <div className="relative">
                                 <input
-                                    className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-4 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                                    className="appearance-none text block w-full bg-gray-200
+                                    text-gray-700 border border-gray-200 rounded py-2 px-4
+                                     leading-tight focus:outline-none focus:bg-white
+                                     focus:border-gray-500"
                                     type="email" placeholder="Enter Your Email Address" />
-
-                                    <button type="submit"
-                                            className="bg-primarycolor text-white px-4 py-2 text-sm font-bold rounded absolute top-0 right-0 my-2 mr-2">Subscribe</button>
                             </div>
+                            <button type="submit"
+                                    className="bg-primarycolor text-white px-2 py-2 text-xs font-bold
+                                             rounded right-0 my-2 mr-2 w-full">Subscribe</button>
                         </div>
                     </form>
                 </div>
@@ -80,7 +85,7 @@ export default function Footer() {
                   </svg>
                 </span>
                                 <span className="ml-3">
-                  +(233) 23 456 7890
+                  0202398927 | 0302938426 | 0242820663
                 </span>
                             </a>
                         </li>
@@ -140,7 +145,8 @@ export default function Footer() {
                         </li>
                     </ul>
 
-                    <p className="text-sm text-gray-400 mt-12">© 2019 Goldencloudtours. <br className="hidden lg:block" />All Rights Reserved.
+                    <p className="text-sm text-gray-400 mt-12 flex flex-wrap items-center ">© 2019    MTekGH.
+                        All Rights Reserved.
                     </p>
                 </div>
             </div>

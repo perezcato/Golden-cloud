@@ -13,16 +13,16 @@ export default function JoinUs() {
                     <div className="mt-6 text-xl font-semibold">SAY HELLO!</div>
                     <form className="w-full md:w-4/5 lg:w-3/5 xl:w-2/5 mx-auto mt-2 px-6 pt-6 pb-4 rounded">
                         <div className="flex items-center mb-4">
-                            <input className="w-full h-10 p-2 border-b border-gray-900 bg-gray-900 text-white"
+                            <input className="w-full h-10 p-2 border-b outline-none rounded-lg border-gray-900 bg-gray-900 text-white"
                                    type="text" placeholder="Fullname" />
                         </div>
                         <div className="flex items-center mb-4">
-                            <input className="w-full h-10 p-2 border-b border-gray-900 bg-gray-900 text-white"
+                            <input className="w-full h-10 p-2 border-b outline-none rounded-lg border-gray-900 bg-gray-900 text-white"
                                    type="text" placeholder="Email" />
                         </div>
                         <div className="mb-6">
                                         <textarea
-                                            className="w-full h-24 px-2 pt-2 border-b-2 border-gray-900 bg-gray-900 text-white"
+                                            className="w-full h-24 px-2 pt-2 outline-none rounded-lg border-b-2 border-gray-900 bg-gray-900 text-white"
                                             placeholder="Message">
                                         </textarea>
                         </div>

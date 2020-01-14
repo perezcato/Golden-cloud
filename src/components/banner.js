@@ -1,11 +1,12 @@
 import React from "react";
 import bg from "../assets/images/webapp.jpg";
+import {Link} from "react-scroll/modules";
 
 export default function Banner() {
   return (
     <section
         id="our-banner"
-      className=" bg-center text-center md:text-left lg:text-left bg-cover "
+      className="bg-center mb-0 text-center md:text-left lg:text-left bg-cover "
       style={{ backgroundImage: `url(${bg})`, height: "100vh", boxSizing: 'border-box', minHeight: '701px' }}
     >
       <div className="w-full h-full lg:px-12 xl:px-16 pt-40 px-6 bg-dark lg:bg-transparent">
@@ -25,10 +26,16 @@ export default function Banner() {
       </div>
 
       <button
-        className="text-white bg-primarycolor uppercase opacity-75 outline-none mt-20 py-3 px-4"
-        style={{ borderRadius: "1rem" }}
+        className="text-white bg-primarycolor uppercase outline-none mt-20 py-3 px-4"
       >
-        Discover
+        <Link
+            to="our-packages"
+            spy={true}
+            smooth={true}
+            duration={1000}
+        >
+          Book your tour now
+        </Link>
       </button>
       </div>
     </section>

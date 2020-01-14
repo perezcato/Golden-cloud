@@ -1,5 +1,7 @@
 import React from "react";
 
+
+
 import Info from "./components/info-bar/info";
 import Header from "./components/header";
 import Banner from "./components/banner";
@@ -12,7 +14,6 @@ import JoinUs from './components/join-us';
 import Footer from './components/footer';
 import AboutUs from './components/aboutsUs';
 
-import './animations.css';
 
 function App() {
   return (

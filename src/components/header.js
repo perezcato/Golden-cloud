@@ -12,7 +12,8 @@ export default function Header() {
 
   return (
     <div
-      className="flex w-full items-center justify-between shadow z-10 px-6 lg:px-12 xl:px-16 lg:flex lg:justify-between lg:items-center lg:flex-row"
+      className="flex w-full items-center justify-between shadow z-10 px-6 lg:px-12
+       xl:px-16 lg:flex lg:justify-between lg:items-center lg:flex-row"
       style={{ backgroundColor: "rgba(255,255,255,1)", boxSizing: 'border-box' }}
     >
       <img
@@ -37,6 +38,7 @@ export default function Header() {
             Home
           </Link>
         </li>
+
         <li className="hover:text-primarycolor mr-8 uppercase text-gray-800 font-bold text-sm">
           <Link
             to="our-packages"
@@ -71,6 +73,18 @@ export default function Header() {
             className="hover:text-primarycolor cursor-pointer"
           >
             Events
+          </Link>
+        </li>
+        <li className="mr-8 hover:text-primarycolor uppercase text-gray-800 font-bold text-sm">
+          <Link
+              to="our-about"
+              activeClass="text-primarycolor"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              className="hover:text-primarycolor cursor-pointer"
+          >
+            About
           </Link>
         </li>
         <li className=" hover:text-primarycolor uppercase text-gray-800 font-bold text-sm">

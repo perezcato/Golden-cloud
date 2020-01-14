@@ -2,19 +2,21 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons/faStar";
 
-import kempinski from '../assets/images/hotels/kempinski.jpg';
-import mariott from '../assets/images/hotels/accra_mariott_hotel.jpg';
-import labadi from '../assets/images/hotels/labadibeachhotel.jpg';
-import villa from '../assets/images/hotels/villa_monticello.jpg';
+
+
+import london from "../assets/images/tours/bali.jpg";
+import france from "../assets/images/tours/sao.jpg";
+import singapore from "../assets/images/tours/sg.jpg";
+import dubai from "../assets/images/tours/db.jpg";
 
 export default function Accomodation() {
   return (
     <section id="our-accommodation" className="px-6 pt-10 pb-5 lg:px-12 xl:px-16 lg:pt-20 lg:pb-10 z-0 ">
       <div className="packages-title text-left">
         <h2 className="font-extrabold uppercase text-xl lg:text-2xl">
-          Recommended Hotels
+          Popular Tours
         </h2>
-        <h3 className="font-light text-sm lg:text-base">Top Hotels</h3>
+        <h3 className="font-light text-sm lg:text-base">Top Destinations</h3>
       </div>
       <div className="lg:flex md:flex-wrap lg:justify-between md:flex md:justify-between block mt-6">
         <div
@@ -26,11 +28,11 @@ export default function Accomodation() {
         >
           <div
             className="place-image relative bg-cover bg-center rounded h-full lg:h-full relative"
-            style={{ backgroundImage: `url(${villa})` }}
+            style={{ backgroundImage: `url(${london})` }}
           >
             <div
               className="w-full h-full rounded"
-              style={{ backgroundColor: "rgba(0,0,0,0.5)" }}
+              style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
             >
               <p
                 style={{ right: "0.5rem", top: "0.5rem" }}
@@ -78,11 +80,11 @@ export default function Accomodation() {
         >
           <div
             className="place-image relative bg-cover bg-center rounded h-full lg:h-full relative"
-            style={{ backgroundImage: `url(${kempinski})` }}
+            style={{ backgroundImage: `url(${france})` }}
           >
             <div
               className="w-full h-full rounded"
-              style={{ backgroundColor: "rgba(0,0,0,0.5)" }}
+              style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
             >
               <p
                 style={{ right: "0.5rem", top: "0.5rem" }}
@@ -130,11 +132,11 @@ export default function Accomodation() {
         >
           <div
             className="place-image relative bg-cover bg-center rounded h-full lg:h-full relative"
-            style={{ backgroundImage: `url(${mariott})` }}
+            style={{ backgroundImage: `url(${singapore})` }}
           >
             <div
               className="w-full h-full rounded"
-              style={{ backgroundColor: "rgba(0,0,0,0.5)" }}
+              style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
             >
               <p
                 style={{ right: "0.5rem", top: "0.5rem" }}
@@ -182,11 +184,11 @@ export default function Accomodation() {
         >
           <div
             className="place-image relative bg-cover bg-center rounded h-full lg:h-full relative"
-            style={{ backgroundImage: `url(${labadi})` }}
+            style={{ backgroundImage: `url(${dubai})` }}
           >
             <div
               className="w-full h-full rounded"
-              style={{ backgroundColor: "rgba(0,0,0,0.5)" }}
+              style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
             >
               <p
                 style={{ right: "0.5rem", top: "0.5rem" }}

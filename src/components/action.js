@@ -4,7 +4,7 @@ import adventure from "../assets/images/adventure.jpg";
 export default function Action() {
   return (
     <section
-      className="px-6 h-ch1 lg:h-67 md:h-67 pt-5 pb-5 lg:px-12 xl:px-16 lg:pt-20 lg:pb-10 z-0 "
+      className="px-6 h-ch1 lg:h-67 md:h-67 pt-5 pb-5 lg:px-12 xl:px-16 lg:pt-20 z-0 "
       style={{minHeight: '350px'}}
     >
       <div className="bg-center bg-cover w-full h-full shadow-2xl" style={{ backgroundImage: `url(${adventure})` }} >

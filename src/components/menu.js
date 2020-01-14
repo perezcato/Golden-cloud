@@ -17,7 +17,7 @@ export default function Menu() {
       >
         <FontAwesomeIcon icon={faTimes} />
       </button>
-      <ul className="mt-24 text-justify">
+      <ul className="mt-24 text-center">
           <li className="mb-4 text-2xl hover:text-primarycolor uppercase text-white font-bold ">
               <Link
                   onClick={close}
@@ -31,7 +31,7 @@ export default function Menu() {
                   Home
               </Link>
           </li>
-          <li className="mb-4 text-2xl hover:text-primarycolor mr-8 uppercase text-white font-bold ">
+          <li className="mb-4 text-2xl hover:text-primarycolor uppercase text-white font-bold ">
               <Link
                   onClick={close}
                   to="our-packages"
@@ -44,7 +44,7 @@ export default function Menu() {
                   Tours
               </Link>
           </li>
-          <li className="mb-4 text-2xl hover:text-primarycolor mr-8 uppercase text-white font-bold ">
+          <li className="mb-4 text-2xl hover:text-primarycolor uppercase text-white font-bold ">
               <Link
                   onClick={close}
                   to="our-accommodation"
@@ -57,7 +57,7 @@ export default function Menu() {
                   Accommodation
               </Link>
           </li>
-          <li className="mb-4 text-2xl hover:text-primarycolor mr-8 uppercase text-white font-bold ">
+          <li className="mb-4 text-2xl hover:text-primarycolor uppercase text-white font-bold ">
               <Link
                   onClick={close}
                   to="our-places"
@@ -70,11 +70,11 @@ export default function Menu() {
                   Events
               </Link>
           </li>
-          <li className=" mb-4 text-2xl hover:text-primarycolor uppercase text-white font-bold ">
+          <li className="mb-4 text-2xl hover:text-primarycolor uppercase text-white font-bold ">
               <Link
                   onClick={close}
+                  to="our-about"
                   activeClass="text-primarycolor"
-                  to="about-us"
                   spy={true}
                   smooth={true}
                   duration={1000}
@@ -82,6 +82,18 @@ export default function Menu() {
               >
                   About
               </Link>
+          </li>
+          <li className=" mb-4 text-2xl hover:text-primarycolor uppercase text-white font-bold ">
+                  <Link
+                      activeClass="text-primarycolor"
+                      to="about-us"
+                      spy={true}
+                      smooth={true}
+                      duration={1000}
+                      className="hover:text-primarycolor cursor-pointer"
+                  >
+                      Contact Us
+                  </Link>
           </li>
       </ul>
     </div>
